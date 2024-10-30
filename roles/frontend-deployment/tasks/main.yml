@@ -1,0 +1,16 @@
+- name: Pull image from repository
+  docker_image:
+    name: immah/yolo-client:latest
+    source: pull
+
+- name: Create Node.js frontend Container
+  docker_container:
+    name: immah-yolo-client
+    image: immah/yolo-client:latest
+    networks:
+      - name: app-net
+    ports:
+      - "3000:3000"
+    command: "npm start"
+    restart_policy: unless-stopped
+  become: yes
