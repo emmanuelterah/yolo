@@ -12,23 +12,23 @@ services:
 
   #Builds the frontend Docker image and creates the frontend microservice
   emmanuel-yolo-client:
-    image: emmanuelterah/emmanuel-yolo-client:v1.0.0
+    image: immah/yolo-client:latest
     build: ./client
-    container_name: emmanuel-yolo-client
+    container_name: immah-yolo-client
     stdin_open: true
     tty: true
     ports:
       - "3000:3000"
     depends_on: 
-      - emmanuel-yolo-backend
+      - immah-yolo-backend
     networks:
       - app-net
 
   #Builds the backend Docker image and creates the backend microservice
   emmanuel-yolo-backend:
-    image: emmanuelterah/emmanuel-yolo-backend:v1.0.0
+    image: immah/yolo-backend:latest
     build: ./backend
-    container_name: emmanuel-yolo-backend
+    container_name: immah-yolo-backend
     stdin_open: true
     tty: true
     restart: always
