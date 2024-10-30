@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = file("/home/immah/Desktop/CodeStuff/yolo/stage_two/acquired-rite-440014-v4-35c1eb021440.json") # Replace with your service account key path
+  credentials = file("/home/immah/Videos/acquired-rite-440014-v4-67678ab52c09.json") # Replace with your service account key path
   project     = var.project_id
   region      = var.region
 }
