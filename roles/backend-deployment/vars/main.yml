@@ -1,4 +1,4 @@
 ---
-container_name: immah-yolo-client
+container_name: immah-yolo-backend
 network: app-net
 volume: app-mongo-data/app
