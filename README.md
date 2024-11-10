@@ -4,7 +4,8 @@ This project involved the containerization and deployment of a full-stack yolo a
 # Project link
 http://34.57.152.165:3000
 
-# Kubectl link
+
+http://192.168.49.2:30101
 http://192.168.49.2:30102
 
 
