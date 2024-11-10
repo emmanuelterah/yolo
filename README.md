@@ -4,6 +4,9 @@ This project involved the containerization and deployment of a full-stack yolo a
 # Project link
 http://34.57.152.165:3000
 
+# Kubectl link
+http://192.168.49.2:30102
+
 
 # Requirements
 Install the docker engine here:
@@ -16,6 +19,8 @@ Install the docker engine here:
 ![Alt text](image3.png)
 ![Alt text](image2.png)
 ![Alt text](image4.png)
+![Alt text](image5.png)
+![alt text](image6.png)
 
 ## How to run the app
 Use vagrant up --provison command

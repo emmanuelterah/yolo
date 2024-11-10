@@ -22,10 +22,10 @@ spec:
             - containerPort: 3000
           resources:
             limits:
-              memory: "256Mi"
+              memory: "512Mi"
               cpu: "500m"
             requests:
-              memory: "128Mi"
+              memory: "256Mi"
               cpu: "250m"
 ---
 apiVersion: v1
@@ -40,4 +40,4 @@ spec:
     - protocol: TCP
       port: 3000
       targetPort: 3000
-      nodePort: 30100
+      nodePort: 30102
