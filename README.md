@@ -5,10 +5,6 @@ This project involved the containerization and deployment of a full-stack yolo a
 http://34.57.152.165:3000
 
 
-http://192.168.49.2:30101
-http://192.168.49.2:30102
-
-
 # Requirements
 Install the docker engine here:
 - [Docker](https://docs.docker.com/engine/install/) 
