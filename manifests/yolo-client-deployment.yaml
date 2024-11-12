@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: yolo-client
-        image: yolo-app-client:latest
+        image: yolo-app-client:V2.0
         ports:
         - containerPort: 80
         env:
